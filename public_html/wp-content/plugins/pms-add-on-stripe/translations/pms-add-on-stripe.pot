@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pms-stripe-fr\n"
+"POT-Creation-Date: 2017-05-10 12:14+0300\n"
+"PO-Revision-Date: 2017-05-10 12:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: libs\n"
+
+#: extend/functions-pb-redirect.php:27
+#, php-format
+msgid ""
+"You will soon be redirected automatically. If you see this page for more "
+"than 5 seconds, please click <a href=\"%1$s\">here</a>"
+msgstr ""
+
+#: includes/admin/functions-admin-pages.php:35
+msgid "Renewal"
+msgstr ""
+
+#: includes/admin/functions-admin-pages.php:39
+msgid "Customer opts in for automatic renewal"
+msgstr ""
+
+#: includes/admin/functions-admin-pages.php:40
+msgid "Always renew automatically"
+msgstr ""
+
+#: includes/admin/functions-admin-pages.php:44
+msgid ""
+"Select renewal type. You can either allow the customer to opt in or force "
+"automatic renewal."
+msgstr ""
+
+#: includes/admin/functions-admin-pages.php:64
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/admin/functions-admin-pages.php:67
+msgid "Test Publishable Key"
+msgstr ""
+
+#: includes/admin/functions-admin-pages.php:70
+msgid "Live Secret Key"
+msgstr ""
+
+#: includes/admin/functions-admin-pages.php:73
+msgid "Live Publishable Key"
+msgstr ""
+
+#: includes/admin/functions-admin-pages.php:79
+msgid "Stripe"
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:84
+msgid "Stripe API key is not valid."
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:139
+#: includes/class-payment-gateway-stripe.php:145
+#: includes/class-payment-gateway-stripe.php:191
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:520
+msgid "Please enter a Billing First Name."
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:521
+msgid "Please enter a Billing Last Name."
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:522
+msgid "Please enter a Billing Address."
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:523
+msgid "Please enter a Billing City."
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:524
+msgid "Please enter a Billing State."
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:525
+msgid "Please enter a Billing Country."
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:526
+msgid "Please enter a Billing ZIP code."
+msgstr ""
+
+#: includes/class-payment-gateway-stripe.php:527
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: includes/functions-actions.php:18
+#, php-format
+msgid ""
+"Your Stripe API settings are missing. In order to make payments you will "
+"need to add your API credentials %1$s here %2$s."
+msgstr ""
+
+#: includes/functions-actions.php:19
+msgid "This message is visible only by Administrators."
+msgstr ""
+
+#: includes/functions-filters.php:26
+msgid "Card - One Time"
+msgstr ""
+
+#: includes/functions-filters.php:27
+msgid "Subscription Recurring Payment"
+msgstr ""
+
+#: includes/functions-filters.php:62
+msgid "Automatically renew subscription"
+msgstr ""
+
+#: includes/functions-filters.php:152
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/functions-filters.php:174
+msgid ""
+"Something went wrong while trying to process the payment. Your account has "
+"been created, so please log in and retry the payment."
+msgstr ""
+
+#: includes/functions-filters.php:176
+msgid ""
+"Something went wrong while trying to process the payment. Please try again."
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:16
+msgid "Credit Card Information"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:21
+msgid "Card Number *"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:30
+msgid "Card CVV *"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:39
+msgid "Expiration Date *"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:67
+msgid "Billing Details"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:81
+msgid "Billing First Name *"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:90
+msgid "Billing Last Name *"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:99
+msgid "Billing Address *"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:108
+msgid "Billing City *"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:117
+msgid "Billing Zip / Postal Code *"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:126
+msgid "Billing Country *"
+msgstr ""
+
+#: includes/views/view-billing-cc-form.php:147
+msgid "Billing State / Province *"
+msgstr ""

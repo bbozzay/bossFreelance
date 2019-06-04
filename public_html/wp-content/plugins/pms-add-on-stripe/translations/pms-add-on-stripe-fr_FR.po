@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pms-stripe-fr\n"
+"POT-Creation-Date: 2017-05-10 17:42+0200\n"
+"PO-Revision-Date: 2017-05-10 18:08+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex\n"
+"Last-Translator: \n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: libs\n"
+
+#: extend/functions-pb-redirect.php:27
+#, php-format
+msgid ""
+"You will soon be redirected automatically. If you see this page for more "
+"than 5 seconds, please click <a href=\"%1$s\">here</a>"
+msgstr ""
+"Vous allez être redirigé automatiquement. Si vous n’êtes redirigé après 5 "
+"secondes, merci de cliquer <a href=\"%1$s\">ici</a>"
+
+#: includes/admin/functions-admin-pages.php:35
+msgid "Renewal"
+msgstr "Renouvellement"
+
+#: includes/admin/functions-admin-pages.php:39
+msgid "Customer opts in for automatic renewal"
+msgstr "Opt-in client pour le renouvellement automatique"
+
+#: includes/admin/functions-admin-pages.php:40
+msgid "Always renew automatically"
+msgstr "Toujours renouveler automatiquement"
+
+#: includes/admin/functions-admin-pages.php:44
+msgid ""
+"Select renewal type. You can either allow the customer to opt in or force "
+"automatic renewal."
+msgstr ""
+"Sélectionnez le type de renouvellement. Vous pouvez permettre au client de "
+"sélectionner cette option lui-même ou forcer le renouvellement automatique."
+
+#: includes/admin/functions-admin-pages.php:64
+msgid "Test Secret Key"
+msgstr "Test Secret Key"
+
+#: includes/admin/functions-admin-pages.php:67
+msgid "Test Publishable Key"
+msgstr "Test Publishable Key"
+
+#: includes/admin/functions-admin-pages.php:70
+msgid "Live Secret Key"
+msgstr "Live Secret Key"
+
+#: includes/admin/functions-admin-pages.php:73
+msgid "Live Publishable Key"
+msgstr "Live Publishable Key"
+
+#: includes/admin/functions-admin-pages.php:79
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/class-payment-gateway-stripe.php:84
+msgid "Stripe API key is not valid."
+msgstr "La Clé API Stripe n’est pas valide."
+
+#: includes/class-payment-gateway-stripe.php:139
+#: includes/class-payment-gateway-stripe.php:145
+#: includes/class-payment-gateway-stripe.php:191
+msgid "Something went wrong. Please try again."
+msgstr "Quelque chose n’a pas fonctionné. Merci de réessayer."
+
+#: includes/class-payment-gateway-stripe.php:520
+msgid "Please enter a Billing First Name."
+msgstr "Merci d’inscrire un prénom."
+
+#: includes/class-payment-gateway-stripe.php:521
+msgid "Please enter a Billing Last Name."
+msgstr "Merci d’inscrire un nom."
+
+#: includes/class-payment-gateway-stripe.php:522
+msgid "Please enter a Billing Address."
+msgstr "Merci d’inscrire une adresse."
+
+#: includes/class-payment-gateway-stripe.php:523
+msgid "Please enter a Billing City."
+msgstr "Merci d’inscrire une ville."
+
+#: includes/class-payment-gateway-stripe.php:524
+msgid "Please enter a Billing State."
+msgstr "Merci d’inscrire une région / province."
+
+#: includes/class-payment-gateway-stripe.php:525
+msgid "Please enter a Billing Country."
+msgstr "Merci d’inscrire un pays."
+
+#: includes/class-payment-gateway-stripe.php:526
+msgid "Please enter a Billing ZIP code."
+msgstr "Merci d’inscrire une code postal."
+
+#: includes/class-payment-gateway-stripe.php:527
+msgid "An error occurred. Please try again."
+msgstr "Une erreur est survenue. Merci de réessayer."
+
+#: includes/functions-actions.php:18
+#, php-format
+msgid ""
+"Your Stripe API settings are missing. In order to make payments you will "
+"need to add your API credentials %1$s here %2$s."
+msgstr ""
+"Vos réglages d’API Stripe sont inexistants. Afin de permettre les "
+"paiements en ligne vous devez ajouter votre certificat API %1$s ici %2$s."
+
+#: includes/functions-actions.php:19
+msgid "This message is visible only by Administrators."
+msgstr "The message n’est visible que pour les administrateurs."
+
+#: includes/functions-filters.php:26
+msgid "Card - One Time"
+msgstr "Card - One Time"
+
+#: includes/functions-filters.php:27
+msgid "Subscription Recurring Payment"
+msgstr "Souscription Paiement Récurrent"
+
+#: includes/functions-filters.php:62
+msgid "Automatically renew subscription"
+msgstr "Renouvellement automatique de votre abonnement."
+
+#: includes/functions-filters.php:152
+msgid "Something went wrong."
+msgstr "Quelque chose n’a pas fonctionné."
+
+#: includes/functions-filters.php:174
+msgid ""
+"Something went wrong while trying to process the payment. Your account has "
+"been created, so please log in and retry the payment."
+msgstr ""
+"Quelque chose n’a pas fonctionné lorsque vous avez tenté de payer. Votre "
+"compte a néanmoins été crée, merci de vous connecter et de réessayer."
+
+#: includes/functions-filters.php:176
+msgid ""
+"Something went wrong while trying to process the payment. Please try again."
+msgstr ""
+"Quelque chose n’a pas fonctionné lorsque vous avez tenté de payer. Merci "
+"de réessayer."
+
+#: includes/views/view-billing-cc-form.php:16
+msgid "Credit Card Information"
+msgstr "Information Carte de Crédit"
+
+#: includes/views/view-billing-cc-form.php:21
+msgid "Card Number *"
+msgstr "Numéro de Carte *"
+
+#: includes/views/view-billing-cc-form.php:30
+msgid "Card CVV *"
+msgstr "CVV *"
+
+#: includes/views/view-billing-cc-form.php:39
+msgid "Expiration Date *"
+msgstr "Date Expiration *"
+
+#: includes/views/view-billing-cc-form.php:67
+msgid "Billing Details"
+msgstr "Information de Facturation"
+
+#: includes/views/view-billing-cc-form.php:81
+msgid "Billing First Name *"
+msgstr "Prénom *"
+
+#: includes/views/view-billing-cc-form.php:90
+msgid "Billing Last Name *"
+msgstr "Nom *"
+
+#: includes/views/view-billing-cc-form.php:99
+msgid "Billing Address *"
+msgstr "Adresse *"
+
+#: includes/views/view-billing-cc-form.php:108
+msgid "Billing City *"
+msgstr "Ville *"
+
+#: includes/views/view-billing-cc-form.php:117
+msgid "Billing Zip / Postal Code *"
+msgstr "Code Postal *"
+
+#: includes/views/view-billing-cc-form.php:126
+msgid "Billing Country *"
+msgstr "Pays *"
+
+#: includes/views/view-billing-cc-form.php:147
+msgid "Billing State / Province *"
+msgstr "Région / Province *"
+
